@@ -136,6 +136,4 @@ dist
 .pnp.*
 
 .angular/
-../.angular/
 
-./.angular/

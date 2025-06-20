@@ -102,6 +102,19 @@ export const routes: Routes = [
         }
       },
       {
+        path: 'companeros',
+        component: CompanerosComponent,
+        data: {
+          authorities: [
+            IRoleType.admin,
+            IRoleType.superAdmin,
+            IRoleType.user,
+          ],
+          name: 'companeros',
+          showInSidebar: true
+        }
+      },
+      {
         path: 'orders',
         component: OrdersComponent,
         data: {
